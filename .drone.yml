@@ -6,4 +6,5 @@ platform:
 steps:
   - name: build-snap
     image: docks.behar.cloud/snapcraft-drone-plugin
-    registry: docks.behar.cloud
+image_pull_secrets:
+  - docks_auth_config
